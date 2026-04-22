@@ -1,3 +1,4 @@
+```
 # Gestión de Contactos e Historias con MongoDB (NoSQL) 🚀
 
 Este proyecto ha sido desarrollado como parte de la **Actividad 04**, con el objetivo de implementar un sistema de gestión de datos utilizando tecnologías NoSQL. La aplicación permite gestionar formularios de contacto e historias de usuario mediante una API REST robusta y tipada.
@@ -31,6 +32,8 @@ cd proyecto-nosql-actividad4
 
 # Instalar las dependencias de Node.js
 npm install
+
+```
 
 ### 2\. Configurar las Variables de Entorno
 
