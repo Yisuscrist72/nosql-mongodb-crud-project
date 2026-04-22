@@ -1,0 +1,43 @@
+### --- CONTACTOS ---
+
+### Crear un contacto
+POST http://localhost:3000/api/contacts
+Content-Type: application/json
+
+{
+  "name": "Juan Pérez",
+  "email": "juan@empresa.com",
+  "subject": "Consulta de presupuesto",
+  "message": "Hola, me gustaría recibir más información sobre sus servicios NoSQL.",
+  "accept_terms": true
+}
+
+### Ver todos los contactos
+GET http://localhost:3000/api/contacts
+
+### --- HISTORIAS ---
+
+### Crear una historia
+POST http://localhost:3000/api/stories
+Content-Type: application/json
+
+{
+  "name": "Ana García",
+  "email": "ana.story@web.com",
+  "story": "Hace diez años empezamos con un servidor local y ahora estamos en la nube NoSQL.",
+  "accept_terms": true
+}
+
+### Listar historias (Ordenadas por fecha)
+GET http://localhost:3000/api/stories
+
+### Actualizar una historia (REMPLAZA EL ID)
+PUT http://localhost:3000/api/stories/PONER_AQUI_EL_ID
+Content-Type: application/json
+
+{
+  "story": "ESTA HISTORIA HA SIDO ACTUALIZADA: Empezamos en la nube y ahora escalamos con MongoDB."
+}
+
+### Borrar una historia (REMPLAZA EL ID)
+DELETE http://localhost:3000/api/stories/PONER_AQUI_EL_ID
