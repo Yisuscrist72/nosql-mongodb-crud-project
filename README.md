@@ -24,7 +24,7 @@ Antes de comenzar, asegúrate de tener instalado:
 ## 🚀 Instalación y Configuración
 
 Sigue estos pasos para levantar el proyecto en tu entorno local:
-
+```
 ### 1. Clonar y preparar el entorno
 ```bash
 # Entrar en la carpeta del proyecto
